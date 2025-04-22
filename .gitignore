@@ -1,0 +1,12 @@
+cat > bus-searcher-web/.gitignore << EOL
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+ENV/
+env/
+.vscode/
+.idea/
+EOL
